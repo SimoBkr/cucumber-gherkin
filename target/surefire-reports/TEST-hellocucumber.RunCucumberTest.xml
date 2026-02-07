@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="hellocucumber.RunCucumberTest" time="0.119" tests="3" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mac/Code/hellocucumber/target/test-classes:/Users/mac/Code/hellocucumber/target/classes:/Users/mac/.m2/repository/io/cucumber/cucumber-java/7.33.0/cucumber-java-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-core/7.33.0/cucumber-core-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-gherkin/7.33.0/cucumber-gherkin-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.33.0/cucumber-gherkin-messages-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/mac/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/mac/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/mac/.m2/repository/io/cucumber/query/14.6.0/query-14.6.0.jar:/Users/mac/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/mac/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/mac/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/mac/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/mac/.m2/repository/io/cucumber/datatable/7.33.0/datatable-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-plugin/7.33.0/cucumber-plugin-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/docstring/7.33.0/docstring-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/html-formatter/22.2.0/html-formatter-22.2.0.jar:/Users/mac/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/mac/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/mac/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.33.0/cucumber-junit-platform-engine-7.33.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-engine/1.14.1/junit-platform-engine-1.14.1.jar:/Users/mac/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-commons/1.14.1/junit-platform-commons-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite/1.14.1/junit-platform-suite-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite-api/1.14.1/junit-platform-suite-api-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.14.1/junit-platform-suite-engine-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.14.1/junit-platform-suite-commons-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-launcher/1.14.1/junit-platform-launcher-1.14.1.jar:/Users/mac/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6.jar:/Users/mac/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MA"/>
+    <property name="sun.boot.library.path" value="/Users/mac/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mac/Code/hellocucumber/target/surefire/surefirebooter-20260207000858132_3.jar /Users/mac/Code/hellocucumber/target/surefire 2026-02-07T00-08-58_085-jvmRun1 surefire-20260207000858132_1tmp surefire_0-20260207000858132_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mac/Code/hellocucumber/target/test-classes:/Users/mac/Code/hellocucumber/target/classes:/Users/mac/.m2/repository/io/cucumber/cucumber-java/7.33.0/cucumber-java-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-core/7.33.0/cucumber-core-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-gherkin/7.33.0/cucumber-gherkin-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.33.0/cucumber-gherkin-messages-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/mac/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/mac/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/mac/.m2/repository/io/cucumber/query/14.6.0/query-14.6.0.jar:/Users/mac/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/mac/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/mac/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/mac/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/mac/.m2/repository/io/cucumber/datatable/7.33.0/datatable-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-plugin/7.33.0/cucumber-plugin-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/docstring/7.33.0/docstring-7.33.0.jar:/Users/mac/.m2/repository/io/cucumber/html-formatter/22.2.0/html-formatter-22.2.0.jar:/Users/mac/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/mac/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/mac/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mac/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.33.0/cucumber-junit-platform-engine-7.33.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-engine/1.14.1/junit-platform-engine-1.14.1.jar:/Users/mac/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-commons/1.14.1/junit-platform-commons-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite/1.14.1/junit-platform-suite-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite-api/1.14.1/junit-platform-suite-api-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.14.1/junit-platform-suite-engine-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.14.1/junit-platform-suite-commons-1.14.1.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-launcher/1.14.1/junit-platform-launcher-1.14.1.jar:/Users/mac/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6.jar:/Users/mac/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mac"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/Users/mac/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mac/Code/hellocucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mac/Code/hellocucumber/target/surefire/surefirebooter-20260207000858132_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="mac"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.1.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mac/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/4f/z32qq0m50t9185dnxlfx6b540000gn/T/"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/Users/mac/Code/hellocucumber"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="An example - The example" classname="RunCucumberTest" time="0.047">
+    <error message="The step &apos;an example scenario&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;an example scenario&quot;)&#10;public void an_example_scenario() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;all step definitions are implemented&quot;)&#10;public void all_step_definitions_are_implemented() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the scenario passes&quot;)&#10;public void the_scenario_passes() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'an example scenario' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("an example scenario")
+public void an_example_scenario() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("all step definitions are implemented")
+public void all_step_definitions_are_implemented() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the scenario passes")
+public void the_scenario_passes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.an example scenario(classpath:hellocucumber/example.feature:4)
+]]></error>
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m The example                         &amp#27;[90m# classpath:hellocucumber/example.feature:3&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22man example scenario&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mall step definitions are implemented&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe scenario passes&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Is it Friday yet? - Sunday isn&apos;t Friday" classname="RunCucumberTest" time="0.026">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Sunday isn't Friday          &amp#27;[90m# classpath:hellocucumber/is_it_friday_yet.feature:4&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mtoday is Sunday&amp#27;[39m              &amp#27;[90m# hellocucumber.StepDefinitions.today_is_Sunday()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mI ask whether it's Friday yet&amp#27;[39m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mI should be told &amp#27;[1m"Nope"&amp#27;[22m&amp#27;[39m       &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Is it Friday yet? - Friday is Friday" classname="RunCucumberTest" time="0.004">
+    <failure message="&#10;expected: &quot;TGIF&quot;&#10; but was: &quot;Nope&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+
+expected: "TGIF"
+ but was: "Nope"
+	at hellocucumber.StepDefinitions.i_should_be_told(StepDefinitions.java:34)
+	at ✽.I should be told "TGIF"(classpath:hellocucumber/is_it_friday_yet.feature:12)
+]]></failure>
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Friday is Friday             &amp#27;[90m# classpath:hellocucumber/is_it_friday_yet.feature:9&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mtoday is Friday&amp#27;[39m              &amp#27;[90m# hellocucumber.StepDefinitions.today_is_friday()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mI ask whether it's Friday yet&amp#27;[39m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[39m
+  &amp#27;[31m✘&amp#27;[39m &amp#27;[31m&amp#27;[1mThen &amp#27;[22mI should be told &amp#27;[1m"TGIF"&amp#27;[22m&amp#27;[39m       &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[39m
+        &amp#27;[31morg.opentest4j.AssertionFailedError: &amp#27;[39m
+        &amp#27;[31mexpected: "TGIF"&amp#27;[39m
+        &amp#27;[31m but was: "Nope"&amp#27;[39m
+        &amp#27;[31m	at hellocucumber.StepDefinitions.i_should_be_told(StepDefinitions.java:34)&amp#27;[39m
+        &amp#27;[31m	at ✽.I should be told "TGIF"(classpath:hellocucumber/is_it_friday_yet.feature:12)&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>

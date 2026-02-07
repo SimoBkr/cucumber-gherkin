@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.119 s <<< FAILURE! -- in hellocucumber.RunCucumberTest
+hellocucumber.RunCucumberTest.An example - The example -- Time elapsed: 0.047 s <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'an example scenario' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("an example scenario")
+public void an_example_scenario() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("all step definitions are implemented")
+public void all_step_definitions_are_implemented() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the scenario passes")
+public void the_scenario_passes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.an example scenario(classpath:hellocucumber/example.feature:4)
+
+hellocucumber.RunCucumberTest.Is it Friday yet? - Friday is Friday -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "TGIF"
+ but was: "Nope"
+	at hellocucumber.StepDefinitions.i_should_be_told(StepDefinitions.java:34)
+	at ✽.I should be told "TGIF"(classpath:hellocucumber/is_it_friday_yet.feature:12)
+
